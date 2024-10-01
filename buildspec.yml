@@ -9,6 +9,10 @@ phases:
         # install npm
         - npm install
         - npm install react-scripts --save
+        - export NODE_OPTIONS=--openssl-legacy-provider
+        - npm outdated
+        - npm audit fix
+
        
   build:
     commands:
