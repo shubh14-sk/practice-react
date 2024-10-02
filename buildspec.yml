@@ -7,10 +7,7 @@ phases:
    
     commands:
         # install npm
-        - npm install
-        - npm install react-scripts --save
-        - export NODE_OPTIONS=--openssl-legacy-provider
-
+        - npm i -legacy-peer-deps
        
   build:
     commands:
