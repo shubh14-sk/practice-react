@@ -4,7 +4,7 @@
 cd /app
 
 # install dependencies
-npm install
+npm i -legecy-peer-deps
 npm run build
-cp -r /app/build/* /var/www/html
+cp -r build/* /var/www/html/
 npm install pm2 -g
