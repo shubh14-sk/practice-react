@@ -10,7 +10,7 @@ phases:
         - npm install
         - npm install react-scripts --save
         - export NODE_OPTIONS=--openssl-legacy-provider
-        - npm audit fix
+        - npm audit fix --force
 
        
   build:
