@@ -25,4 +25,4 @@ artifacts:
     - package.json
     - appspec.yml
     - scripts/**/*
-    - build/**/*
+    - build
